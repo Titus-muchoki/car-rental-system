@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="create-car-table" author="Mourine">
+        <createTable tableName="car-tb">
+            <column name="id" type="BigInt">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+
+            <column name="make" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="model" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="carRegNo" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="available" type="boolean">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
