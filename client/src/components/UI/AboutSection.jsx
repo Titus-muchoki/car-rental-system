@@ -17,7 +17,7 @@ const AboutSection = ({ aboutClass }) => {
         <Row>
           <Col lg="6" md="6">
             <div className="about__section-content">
-              <h4 className="section__subtitle">About Us</h4>
+              <h1 className="section__subtitle">About Us</h1>
               <h2 className="section__title">Welcome to car rent service</h2>
               <p className="section__description">
               we believe in more than just providing cars; we are dedicated to delivering an
@@ -36,7 +36,7 @@ const AboutSection = ({ aboutClass }) => {
               </div>
 
               <div className="about__section-item d-flex align-items-center">
-                <h4 className="section_subtitle">Why Choose Us</h4>
+                <h2 className="section_subtitle">Why Choose Us</h2>
                 <p className="section__description">
   <ul>
     <li><strong>Quality Fleet:</strong> Our extensive fleet comprises the latest models, meticulously maintained to ensure safety and comfort.</li>

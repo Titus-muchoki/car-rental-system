@@ -1,11 +1,11 @@
 @media only screen and (max-width: 768px) {
     .testimonial p {
-      font-size: 0.8rem;
+      font-size: 2.5rem;
       line-height: 1.5rem;
     }
   
     .testimonial h6 {
-      font-size: 1rem;
+      font-size: 2rem;
     }
   }
   

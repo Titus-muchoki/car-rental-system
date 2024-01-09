@@ -40,10 +40,7 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+         i received the best services from this company. They really has a good customer care services.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">

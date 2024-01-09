@@ -15,7 +15,6 @@ import BlogList from "../components/UI/BlogList";
 const Home = () => {
   return (
     <Helmet title="Home">
-  
       {/* =========== about section ================ */}
       <AboutSection />
       {/* ========== services section ============ */}
